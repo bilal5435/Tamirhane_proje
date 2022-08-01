@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Yeni kayıt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div w3-include-html="components/header.html"></div>
+
+    <div class="container">
+      <h1>Müşteri ve Araç kayıt sistemi</h1>
+      <form>
+        <input type="text" id="input" maxlength="10" placeholder="ad" />
+        <input type="text" id="input" maxlength="10" placeholder="soyad" />
+        <input type="text" id="input" maxlength="11" placeholder="telefon" />
+        <input
+          type="text"
+          id="input"
+          maxlength="25"
+          placeholder="e-posta"
+        /><br />
+        <input
+          type="text"
+          id="input"
+          maxlength="25"
+          placeholder="Araç Markası giriniz..."
+        />
+        <input
+          type="text"
+          id="input"
+          maxlength="25"
+          placeholder="Araç Plakası giriniz..."
+        />
+        <input
+          type="text"
+          id="input"
+          maxlength="25"
+          placeholder="Araç Modeli giriniz..."
+        />
+        <input
+          type="text"
+          id="input"
+          maxlength="25"
+          placeholder="Araç Model Yılı giriniz..."
+        />
+      </form>
+      <button type="button" id="btn">Kaydet</button>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgba(135, 134, 146, 0.627);
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  padding: 40px;
+  margin: 100px;
+  border-radius: 5px;
+  text-align-last: center;
+}
+#btn {
+  margin: 10px;
+  font-size: large;
+}
+#btn:hover {
+  color: blue;
+}

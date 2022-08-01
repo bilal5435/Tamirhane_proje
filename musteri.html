@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Müsteri</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div w3-include-html="components/header.html"></div>
+    <div class="container">
+      <h1>Müşteri ve Araç Bilgileri</h1>
+      <table>
+        <tr>
+          <th>ad</th>
+          <th>soyad</th>
+          <th>telefon</th>
+          <th>e-posta</th>
+          <th>Araç Markası</th>
+          <th>Araç Plakası</th>
+          <th>Araç Modeli</th>
+          <th>Araç Model Yılı</th>
+        </tr>
+        <tr>
+          <td>ad</td>
+          <td>soyad</td>
+          <td>telefon</td>
+          <td>e-posta</td>
+          <td>Araç Markası</td>
+          <td>Araç Plakası</td>
+          <td>Araç Modeli</td>
+          <td>Araç Model Yılı</td>
+          <td><button type="button" id="btn">Güncelle</button></td>
+          <td><button type="button" id="btn">sil</button></td>
+          <td><button type="button" id="btn">Randevu Oluştur</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="main.js"></script>
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+  background-color: aliceblue;
+  margin: 0%;
+  padding: 0%;
+}
+table {
+  border: 3px;
+  width: 80%;
+  align-items: center;
+  padding: 10px;
+}
+#btn {
+  border-radius: 5px;
+  width: 90px;
+  height: 40px;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+#btn:hover {
+  color: red;
+}
+tr td {
+  text-align: center;
+  padding: 10px;
+}
+
+.header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgba(150, 148, 181, 0.415);
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  padding: 10px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  padding-left: 40px;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.nav > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: color 0.5 ease-in-out;
+}
+
+.nav > a:hover {
+  color: rgb(102, 0, 255);
+}
+
+.option > a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.option > a:hover {
+  color: red;
+}
+
+#input {
+  margin: 10px;
+  border: 3px solid rgb(31, 25, 25);
+  font-size: 15px;
+  border-radius: 3px;
+}
